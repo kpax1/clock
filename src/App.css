@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+.App{
+  width: 375px;
+  height: 667px;
+  background-image: url('../src/assets/mobile/bg-image-daytime.jpg'),linear-gradient(to right, #ff0000, #ff0000);;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ff1111;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .yuti.active{
+  transform:translateY(-36%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.yuti{
+  transition: transform 1s;
+}
+.blur{
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quote{
+  max-width: 18.125rem;
+  color:#ffff;
+  font-weight: 400;
+  font-size:12px;
+  line-height: 22px;
+  padding-top: 32px;
+  padding-left: 26px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.quote .author{
+font-weight: 700;
+font-size: 12px;
+line-height: 22px;
+}
+
+.render{
+  position: absolute;
+  top:31.9px;
+  right: 1.604375em;
+}
+
+
+.greeetingdiv{
   display: flex;
-  flex-direction: column;
+  gap: 16.44px;
   align-items: center;
+  color: #ffff;
+  margin-left: 26px;
+  margin-top: 228px;
+}
+
+.greeetingdiv h3{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  font-family: 'Inter', sans-serif;
+
+
+}
+
+.time h1{
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2.5px;
+  color: #ffff;
+  margin-left: 26px;
+  margin-top: 16px;
+}
+.location{
+  color:#ffff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 3px;
+  margin-left: 26px;
+  margin-top: 16px;
+
+}
+
+
+.more{
+  color: #00000086;
+  width: 115px;
+  height: 39px;
+  background-color: #ffff;
+  border: none;
+  border-radius: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 3.75px;
+  margin-top: 48px;
+  margin-left: 26px;
+}
+.more p{
+  margin-left: 17px;
+}
+.more .black{
+  background-color: #303030;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
+.more .black img{
+  width: 11px;
+  height: 6px;
+}
+.bottom{
+  width: 375px;
+  height: 265px;
+  background-color: #ff0000ea;
+  display: block;
+  margin-top: 40px;
 
-.App-link {
-  color: #61dafb;
-}
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+ 
+
